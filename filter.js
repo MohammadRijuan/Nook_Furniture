@@ -45,8 +45,7 @@ seeAllBtn.addEventListener("click", () => {
   const showingAll = cardsContainer.classList.toggle("show-all");
 
   if (showingAll) {
- 
-
+    // Show all cards
     filterableCards.forEach((card) => (card.style.display = "block"));
     seeAllBtn.innerHTML = `Hide Collection <img src="./asset/Frame (3).png" alt="">`;
   } else {
