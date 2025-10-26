@@ -543,7 +543,7 @@ body {
 }
 
 .see-all-btn:hover {
-    background: #003333;
+    color: #003333;
     transform: translateY(-2px);
 }
 
@@ -558,7 +558,7 @@ body {
 }
 
 
-/* futura */
+
 .futura {
     background: #02494B;
 }
